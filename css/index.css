@@ -1,0 +1,13 @@
+
+body {
+    background: linear-gradient(rgba(135, 119, 119, 0.2), rgba(135, 119, 119, 0.1)),
+    url("../img/p5.jpg") ; 
+    height: 100vh;
+    background-position: center;
+    margin: 0px;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

@@ -1,0 +1,132 @@
+body{
+     background: linear-gradient(rgba(135, 119, 119, 0.6), rgba(135, 119, 119, 0.6)),
+        url("../img/contact.jpg") ; 
+    
+    height: 100vh;
+    background-position: center;
+    margin: 0px;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.section{
+    margin: 40px 0;
+}
+.section .container div{
+    margin: 25px 20px;
+}
+.contact-top{
+    text-align: center;
+    
+}
+.contact-top h3{
+    font-size: 28px;
+    color: rgb(51, 44, 44);
+}
+.contact-top p{
+    font-weight: 600;
+    color: rgb(51, 44, 44);
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.contact-middle div{
+    
+    text-align: center;
+    padding: 30px  15px ;
+    
+    background-color:rgba(132, 122, 126, 0.5);
+    color: #fff;
+    display: inline-block;
+}
+.contact-middle div span{
+    display: inline-block;
+}
+.contact-icon{
+    font-size: 30px;
+}
+.contact-middle div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-middle div p{
+    font-weight: 300;
+    opacity: 0.7;
+}
+.contact-bottom{
+    
+    display: inline-block;
+}
+.form input[type = "text"], .form input[type = "email"]
+{
+    width: 50%;
+    font-size: 16px;
+    padding: 10px ;
+    margin: 10px 15px;
+    border: 1px solid rgb(51, 44, 44);
+    outline: none;
+    border-radius: 5px;
+}
+.form textarea{
+    width: 50%;
+    font-size: 16px;
+    padding: 10px ;
+    margin: 10px 15px;
+    border: 1px solid rgb(51, 44, 44);
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.btn{
+    
+    background: rgb(51, 44, 44);
+    border: none;
+    display:block;
+    width: 150px;
+    text-align: center;
+    color: rgb(51, 44, 44);
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    padding: 12px;
+    border: 3px solid rgb(51, 44, 44);
+    border-radius: 11px;
+    margin: 15px 15px;
+    transition: all 0.5s ease;
+    
+}
+.btn:hover{
+    background: rgb(51, 44, 44);
+    color: #fff;
+}
+
+
+@media screen and (max-width: 835px) {
+    .container{
+        float: left;
+     }
+     .form{
+         text-align: center;
+     }
+     .btn{
+         margin: auto;
+         width: 220px;
+         
+     }
+     .contact-top p{
+         font-size: 17px;
+       
+     }
+     .contact-top h3{
+         font-size: 23px;
+     
+     }
+   
+
+}
